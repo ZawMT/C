@@ -32,8 +32,6 @@ class MainClass {
   public static void fillUpRowsCols(string[] strArr, string[][] Rows, string[][] Cols){
     int iRow = 0;
     foreach(string str in strArr) {
-      //Console.WriteLine(str);
-      //Console.WriteLine(str.Substring(1, str.Length - 2));
       string[] strCells = str.Substring(1, str.Length - 2).Split(",");
       for(int i = 0; i < 9; i++) {
           Rows[iRow][i] = strCells[i];
