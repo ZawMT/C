@@ -1,7 +1,10 @@
 using System;
 using System.Collections.Generic;
 
-/* A test from https://coderbyte.com */
+/* 
+	Ref: What I tried for a test from https://coderbyte.com 
+	Function: To check a Sudoku number set to see which quadrant is wrong
+*/
 class MainClass {
   public static string SudokuQuadrantChecker(string[] strArr) {
     string[][] Rows = new string [9][];
