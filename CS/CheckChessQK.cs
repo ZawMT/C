@@ -93,6 +93,6 @@ class MainClass {
   }
 
   static void Main() {  
-    Console.WriteLine(QueenCheck(Console.ReadLine()));
+    Console.WriteLine(QueenCheck(Console.ReadLine()));//The input will be fed like this in the web site: new string[] {"(8,2)","(7,1)"}
   } 
 }
